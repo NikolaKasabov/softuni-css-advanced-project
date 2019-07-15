@@ -1,25 +1,52 @@
-@import url('./reset.css');
-@import url('./typography.css');
-@import url('./carousel.css');
+@import url("./reset.css");
+@import url("./typography.css");
+@import url("./carousel.css");
 
 body {
-  background-color: #eee;
+  /* background-color: #eee; */
 }
 
 /* header start */
 header .top {
-  height: 5em;
+  padding: 0.5em 20vw;
   display: flex;
-  /* background-color: #A0A5C5; */
-  background-color: #C8C9DD;
+  justify-content: space-between;
+  background-color: #f2e2cb;
+  border-bottom: 2px solid #ac262b;
 }
 
 header .top div {
   display: flex;
-  align-items: center;
 }
 
-header .top a {
-  font-size: 1.5em;
-  color: #952124;
+header .top i {
+  margin-right: 0.5em;
+  color: #000;
+  transition: color 0.3s ease-out;
+}
+
+header .top i:hover {
+  color: #ac262b;
+}
+
+header .top .icons a {
+  margin-right: 1em;
+}
+
+header .bottom {
+  padding: 15vh 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-transform: uppercase; */
+  color: #fff;
+  background: url("../shoes-images/header-bottom.jpg") center / cover no-repeat;
+}
+
+header .bottom h1 {
+  font-size: 4em;
+  /* font-family: PT Serif; */
+  text-align: center;
+  text-shadow: 0 3px 5px rgba(172, 55, 38, 1);
 }
