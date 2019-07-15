@@ -1,0 +1,25 @@
+@import url('./reset.css');
+@import url('./typography.css');
+@import url('./carousel.css');
+
+body {
+  background-color: #eee;
+}
+
+/* header start */
+header .top {
+  height: 5em;
+  display: flex;
+  /* background-color: #A0A5C5; */
+  background-color: #C8C9DD;
+}
+
+header .top div {
+  display: flex;
+  align-items: center;
+}
+
+header .top a {
+  font-size: 1.5em;
+  color: #952124;
+}

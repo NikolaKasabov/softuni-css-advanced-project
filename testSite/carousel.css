@@ -1,0 +1,10 @@
+.carousel-wrapper {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.carousel img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

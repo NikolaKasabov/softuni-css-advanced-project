@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Al's Shoe Shop</title>
+  <script src="https://kit.fontawesome.com/e353408577.js"></script>
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="site">
+    <header>
+      <section class="top">
+        <div class="icons">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+        </div>
+
+        <div class="phone">
+          <a href="#"><i class="fas fa-phone-square-alt"></i></a>
+          <p>Call me: +555-bundy</p>
+        </div>
+
+        <div class="email">
+          <a href="#"><i class="fas fa-envelope"></i></a>
+          <p>al.bundy@gmail.com</p>
+        </div>
+      </section>
+
+      <section class="bottom"></section>
+    </header>
+
+
+    <div class="carousel-wrapper">
+      <a href="shop.html">
+        <div class="carousel">
+          <div><img src="../shoes images/more/1-2.jpeg"></div>
+          <div><img src="../shoes images/more/1-1.jpeg"></div>
+          <div><img src="../shoes images/more/7-2.jpeg"></div>
+          <div><img src="../shoes images/more/7-1.jpeg"></div>
+          <div><img src="../shoes images/more/2-2.jpeg"></div>
+          <div><img src="../shoes images/more/2-1.jpeg"></div>
+          <div><img src="../shoes images/more/8-2.jpeg"></div>
+          <div><img src="../shoes images/more/8-1.jpeg"></div>
+          <div><img src="../shoes images/more/3-2.jpeg"></div>
+          <div><img src="../shoes images/more/3-1.jpeg"></div>
+          <div><img src="../shoes images/more/9-2.jpeg"></div>
+          <div><img src="../shoes images/more/9-1.jpeg"></div>
+          <div><img src="../shoes images/more/4-2.jpeg"></div>
+          <div><img src="../shoes images/more/4-1.jpeg"></div>
+          <div><img src="../shoes images/more/10-2.jpeg"></div>
+          <div><img src="../shoes images/more/10-1.jpeg"></div>
+          <div><img src="../shoes images/more/5-2.jpeg"></div>
+          <div><img src="../shoes images/more/5-1.jpeg"></div>
+          <div><img src="../shoes images/more/11-2.jpeg"></div>
+          <div><img src="../shoes images/more/11-1.jpeg"></div>
+          <div><img src="../shoes images/more/6-2.jpeg"></div>
+          <div><img src="../shoes images/more/6-1.jpeg"></div>
+          <div><img src="../shoes images/more/12-2.jpeg"></div>
+          <div><img src="../shoes images/more/12-1.jpeg"></div>
+        </div>
+      </a>
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./slick/slick.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.carousel').slick({
+        infinite: true,
+        autoplay: true,
+        arrows: false,
+        speed: 2000,
+        autoplaySpeed: 1500,
+        cssEase: 'ease',
+        slidesToShow: 6,
+        slidesToScroll: 2,
+        responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2,
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 2
+            }
+          }
+        ],
+      });
+    });
+  </script>
+</body>
+
+</html>
