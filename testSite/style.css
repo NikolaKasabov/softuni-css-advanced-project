@@ -47,8 +47,6 @@ header .top .icons a {
 }
 
 header .bottom {
-  /* padding-bottom: 10vh; */
-  /* height: 20em; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,18 +59,17 @@ header .bottom .nav-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
 
-header .bottom label {
-  /* display: block; */
-  /* margin: 0 auto; */
+  padding-bottom: 1em;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
 }
 
 header .bottom label:before {
   display: block;
   content: "\2630";
-  font-size: 2em;
+  font-size: 2.5em;
   color: #fff;
+  text-shadow: 0 3px 3px rgba(172, 55, 38, 1);
 }
 
 header .bottom nav {
@@ -84,13 +81,28 @@ input:checked + header nav {
 }
 
 input:checked + header label:before {
-  content: "\2718";
   content: "\2612";
+}
+
+header .bottom li {
+  margin-top: 1em;
+  text-align: center;
+}
+
+header .bottom a {
+  padding: 0.5em 2em;
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #f2e2cb;
+  color: #ac262b;
+  border-radius: 0.3em;
+  border: 1px solid #ac262b;
 }
 /* nav end */
 
 header .bottom h1 {
-  padding: 0.5em 0 1em 0;
+  padding: 2em 0;
   font-size: 3em;
   color: #fff;
   text-align: center;
