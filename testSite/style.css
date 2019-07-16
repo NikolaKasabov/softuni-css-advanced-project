@@ -1,14 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
 @import url("./reset.css");
-@import url("./typography.css");
+/* @import url("./typography.css"); */
 @import url("./carousel.css");
 
-body {
-  /* background-color: #eee; */
+html {
+  font: 12px/1.5 Courgette, sans-serif;
 }
 
 /* header start */
 header .top {
-  padding: 0.5em 20vw;
+  padding: 0.5em 5vw;
   display: flex;
   justify-content: space-between;
   background-color: #f2e2cb;
@@ -30,7 +31,7 @@ header .top i:hover {
 }
 
 header .top .icons a {
-  margin-right: 1em;
+  margin-right: 0.5em;
 }
 
 header .bottom {
@@ -39,14 +40,12 @@ header .bottom {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-transform: uppercase; */
   color: #fff;
   background: url("../shoes-images/header-bottom.jpg") center / cover no-repeat;
 }
 
 header .bottom h1 {
   font-size: 4em;
-  /* font-family: PT Serif; */
   text-align: center;
   text-shadow: 0 3px 5px rgba(172, 55, 38, 1);
 }
