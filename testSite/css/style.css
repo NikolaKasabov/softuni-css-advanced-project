@@ -50,7 +50,7 @@ header .bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../../shoes-images/header-bottom.jpg") center / cover no-repeat;
+  background: url("../images/header-bottom.jpg") center / cover no-repeat;
 }
 
 /* nav start */
