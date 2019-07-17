@@ -1,19 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
 @import url("./reset.css");
-/* @import url("./typography.css"); */
+@import url("./typography.css");
 @import url("./carousel.css");
-
-html {
-  font: 12px/1.5 Courgette, sans-serif;
-}
-
-li {
-  list-style: none outside;
-}
-
-a {
-  text-decoration: none;
-}
 
 #main-nav-toggle {
   display: none;
@@ -25,6 +12,7 @@ header .top {
   display: flex;
   justify-content: space-between;
   background-color: #f2e2cb;
+  /* background-color: #F1E4D4; */
   border-bottom: 2px solid #ac262b;
 }
 
@@ -50,7 +38,8 @@ header .bottom {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url("../images/header-bottom.jpg") center / cover no-repeat;
+  /* background: url("../images/header-bottom.jpg") center / cover no-repeat; */
+  background: url("../images/home-main2.jpg") center / cover no-repeat;
 }
 
 /* nav start */
@@ -110,10 +99,28 @@ header .bottom a:hover {
 /* nav end */
 
 header .bottom h1 {
-  padding: 2em 0;
+  /* padding: 2em 0; */
+  padding-top: 2em;
   font-size: 3em;
   color: #fff;
   text-align: center;
-  text-shadow: 0 3px 5px rgba(172, 55, 38, 1);
+  text-shadow: 0 3px 10px rgba(172, 55, 38, 1);
+  /* text-shadow: 0 3px 10px rgb(248, 60, 31); */
+}
+
+header .bottom .slogan {
+  padding-bottom: 4em;
+  font-size: 1.6em;
+  color: #fff;
+  text-shadow:
+   1px -1px 0 #ac262b,
+    /* 1px -1px 0 #ac262b, */
+    /* -1px 1px 0 #ac262b, */
+     1px 1px 0 #ac262b;
 }
 /* header end */
+
+main {
+  height: 30vh;
+  background-color: #f4e5d0;
+}

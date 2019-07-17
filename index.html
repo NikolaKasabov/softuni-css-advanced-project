@@ -8,17 +8,20 @@ layout: home-layout
 <div class="site">
   <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
   <header>
-    <section class="top">
-      {% include header-top.html %}
-    </section>
+    {% include header-top.html %}
 
     <section class="bottom">
       {% include navigation.html %}
       <h1>Welcome to Al's Shoe Store</h1>
+      <p class="slogan">discover your new style with us</p>
     </section>
   </header>
 
   {% include carousel.html %}
+
+  <main>
+
+  </main>
 </div>
 
 {% include carousel-js.html %}
