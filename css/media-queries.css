@@ -6,6 +6,11 @@
   header .top .icons a {
     margin-right: 1em;
   }
+
+  main .content,
+  main .app {
+    width: 80%;
+  }
 }
 
 @media (min-width: 640px) {
@@ -41,7 +46,7 @@
   }
 
   header .bottom li {
-    margin-right: 2em;
+    margin-right: 1em;
   }
 
   header .bottom a {
@@ -50,6 +55,11 @@
 
   header .bottom h1 {
     font-size: 3.5em;
+  }
+
+  main .content,
+  main .app {
+    width: 70%;
   }
 }
 
@@ -66,6 +76,14 @@
 
   header .bottom h1 {
     font-size: 4em;
+  }
+
+  main .content {
+    width: 50%;
+  }
+
+  main .app {
+    width: 65%;
   }
 }
 

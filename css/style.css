@@ -80,7 +80,7 @@ header .bottom li {
 header .bottom a {
   padding: 0.5em 2em;
   display: block;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bold;
   background-color: #f2e2cb;
   color: #ac262b;
@@ -100,28 +100,78 @@ header .bottom a:focus {
 /* nav end */
 
 header .bottom h1 {
-  /* padding: 2em 0; */
   padding-top: 2em;
   font-size: 3em;
   color: #fff;
   text-align: center;
   text-shadow: 0 3px 10px rgba(172, 55, 38, 1);
-  /* text-shadow: 0 3px 10px rgb(248, 60, 31); */
 }
 
 header .bottom .slogan {
   padding-bottom: 4em;
   font-size: 1.6em;
   color: #fff;
-  text-shadow:
-   1px -1px 0 #ac262b,
-    /* 1px -1px 0 #ac262b, */
-    /* -1px 1px 0 #ac262b, */
-     1px 1px 0 #ac262b;
+  text-shadow: 1px -1px 0 #ac262b, 1px 1px 0 #ac262b;
 }
 /* header end */
 
+
+/* main start */
 main {
-  height: 30vh;
-  background-color: #f4e5d0;
+  background-color: #F6F2E4;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+main h3 {
+  padding-bottom: 0.5em;
+  font-weight: normal;
+}
+
+main .content {
+  margin: 0 auto;
+  padding: 4em 0;
+  width: 90%;
+  text-align: center;
+}
+
+main .content hr {
+  margin: 1em auto;
+  display: block;
+  width: 85%;
+  border: none;
+  border-bottom: 1px solid #ac262b;
+  border-bottom: 1px solid #D1B59F;
+}
+
+main .app {
+  margin: 0 auto;
+  padding-bottom: 2em;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .app hr {
+  margin-bottom: 2em;
+  width: 100%;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ac262b;
+}
+
+main .app .icons {
+  margin-top: 1em;
+  display: flex;
+}
+
+main .app .icons a:first-child {
+  margin-right: 2em;
+}
+
+main .app .icons img {
+  width: 10em;
+  height: auto;
 }
