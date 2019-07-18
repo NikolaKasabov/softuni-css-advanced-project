@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Courgette|Maven+Pro&display=swap');
 
 html {
   font: 12px/1.5 Courgette, sans-serif;

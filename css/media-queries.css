@@ -21,6 +21,10 @@
   header .top {
     padding: 0.5em 20vw;
   }
+
+  footer .top .footer-item:not(:first-child) {
+    flex: 0 0 50%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -67,6 +71,14 @@
   html {
     font-size: 17px;
   }
+
+  .site footer .top .footer-item {
+    flex: 0 0 30%;
+  }
+
+  footer .top .footer-item:nth-child(2) {
+    padding-left: 3em;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -84,6 +96,10 @@
 
   main .app {
     width: 65%;
+  }
+
+  footer .bottom:before {
+    width: 90%;
   }
 }
 
