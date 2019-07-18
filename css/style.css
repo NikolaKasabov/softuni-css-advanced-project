@@ -6,7 +6,7 @@
   display: none;
 }
 
-/* header start */
+/* home header start */
 header .top {
   padding: 0.5em 5vw;
   display: flex;
@@ -42,7 +42,7 @@ header .bottom {
   background: url("../images/home-main2.jpg") center / cover no-repeat;
 }
 
-/* header nav start */
+/* home header nav start */
 header .bottom .nav-wrapper {
   width: 100%;
   display: flex;
@@ -97,7 +97,7 @@ header .bottom a:focus {
   color: #f2e2cb;
   border-color: #f2e2cb;
 }
-/* header nav end */
+/* home header nav end */
 
 header .bottom h1 {
   padding-top: 2em;
@@ -113,10 +113,10 @@ header .bottom .slogan {
   color: #fff;
   text-shadow: 1px -1px 0 #ac262b, 1px 1px 0 #ac262b;
 }
-/* header end */
+/* home header end */
 
 
-/* main start */
+/* home main start */
 main {
   background-color: #F6F2E4;
   font-family: 'Maven Pro', sans-serif;
@@ -173,9 +173,9 @@ main .app .icons img {
   width: 10em;
   height: auto;
 }
-/* main end */
+/* home main end */
 
-/* footer start */
+/* home footer start */
 footer {
   padding: 3em 3em 1em 3em;
   color: #fff;
@@ -234,4 +234,4 @@ footer .bottom:before {
   border-bottom: 2px solid #fff;
 }
 
-/* footer end */
+/* home footer end */
