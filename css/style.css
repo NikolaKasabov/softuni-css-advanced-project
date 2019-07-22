@@ -92,7 +92,7 @@ header .bottom a {
 
 header .bottom a:hover,
 header .bottom a:focus {
-  transform: scale(1.07);
+  transform: scale(1.05);
   background-color: var(--red);
   color: var(--yellow-dark);
   border-color: var(--yellow-dark);
