@@ -72,7 +72,7 @@
     font-size: 17px;
   }
 
-  .site footer .top .footer-item {
+  footer.site-footer .top .footer-item {
     flex: 0 0 30%;
   }
 
@@ -107,5 +107,15 @@
 @media (min-width: 1600px) {
   html {
     font-size: 20px;
+  }
+}
+
+@media (min-width: 1900px) {
+  header .bottom h1 {
+    padding-top: 3em;
+  }
+
+  header .bottom .slogan {
+    padding-bottom: 7em;
   }
 }
