@@ -46,3 +46,4 @@ exclude:
   - gulpfile.js
   - package.json
   - package-lock.json
+  - testing
