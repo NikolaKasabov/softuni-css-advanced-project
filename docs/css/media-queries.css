@@ -25,6 +25,48 @@
   footer .top .footer-item:not(:first-child) {
     flex: 0 0 50%;
   }
+
+  .store-main .grid-container {
+    width: 70%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* store animation delay start */
+  .store-main .grid-container .card.card-2,
+  .store-main .grid-container .card.card-3 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+  }
+
+  .store-main .grid-container .card.card-4,
+  .store-main .grid-container .card.card-5 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+  }
+
+  .store-main .grid-container .card.card-6,
+  .store-main .grid-container .card.card-7 {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+  }
+
+  .store-main .grid-container .card.card-8,
+  .store-main .grid-container .card.card-9 {
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+  }
+
+  .store-main .grid-container .card.card-10,
+  .store-main .grid-container .card.card-11 {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+
+  .store-main .grid-container .card.card-12 {
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s;
+  }
+  /* store animation delay end */
 }
 
 @media (min-width: 768px) {
@@ -77,7 +119,6 @@
   }
 
   footer .top .footer-item:nth-child(2) {
-    /* padding-left: 3em; */
     padding-left: 6%;
   }
 }
@@ -102,12 +143,91 @@
   footer .bottom:before {
     width: 90%;
   }
+
+  .store-main .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .store-main .grid-container .card .image {
+    width: 9em;
+    height: 11em;
+  }
+
+  /* store animation delay start */
+  .store-main .grid-container .card.card-2,
+  .store-main .grid-container .card.card-4 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+  }
+
+  .store-main .grid-container .card.card-3,
+  .store-main .grid-container .card.card-5,
+  .store-main .grid-container .card.card-7 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+  }
+
+  .store-main .grid-container .card.card-6,
+  .store-main .grid-container .card.card-8,
+  .store-main .grid-container .card.card-10 {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+  }
+
+  .store-main .grid-container .card.card-9,
+  .store-main .grid-container .card.card-11 {
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+  }
+
+  .store-main .grid-container .card.card-12 {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  /* store animation delay end */
 }
 
 @media (min-width: 1600px) {
   html {
     font-size: 20px;
   }
+
+  .store-main .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  /* store animation delay start */  
+  .store-main .grid-container .card.card-2,
+  .store-main .grid-container .card.card-5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+  }
+
+  .store-main .grid-container .card.card-3,
+  .store-main .grid-container .card.card-6,
+  .store-main .grid-container .card.card-9 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+  }
+
+  .store-main .grid-container .card.card-4,
+  .store-main .grid-container .card.card-7,
+  .store-main .grid-container .card.card-10 {
+    -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+  }
+
+  .store-main .grid-container .card.card-8,
+  .store-main .grid-container .card.card-11 {
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+  }
+
+  .store-main .grid-container .card.card-12 {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+  }
+  /* store animation delay end */
 }
 
 @media (min-width: 1900px) {
