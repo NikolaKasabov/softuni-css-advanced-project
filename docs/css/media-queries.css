@@ -76,7 +76,7 @@
 
   header .bottom .nav-wrapper {
     align-items: flex-end;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
   }
 
   header .bottom label {
