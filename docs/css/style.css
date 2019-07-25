@@ -214,9 +214,11 @@ footer .top a {
   display: inline-block;
   color: var(--yellow-light);
   transition: color 0.3s ease, transform 0.3s ease;
+  outline: none;
 }
 
-footer .top a:hover {
+footer .top a:hover,
+footer .top a:focus {
   color: var(--red);
   transform: scale(1.1);
 }
