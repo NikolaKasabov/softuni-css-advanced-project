@@ -125,6 +125,7 @@
 
 @media (min-width: 1024px) {
   html {
+    padding-top: 1.55em;
     font-size: 18px;
   }
 
