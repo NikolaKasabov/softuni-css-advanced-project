@@ -85,7 +85,6 @@ header .bottom a {
   color: var(--red);
   border-radius: 0.3em;
   border: 1px solid var(--red);
-  outline: none;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out,
     transform 0.3s ease-in-out;
 }
@@ -215,11 +214,9 @@ footer .top a {
   display: inline-block;
   color: var(--yellow-light);
   transition: color 0.3s ease, transform 0.3s ease;
-  outline: none;
 }
 
-footer .top a:hover,
-footer .top a:focus {
+footer .top a:hover {
   color: var(--red);
   transform: scale(1.1);
 }
