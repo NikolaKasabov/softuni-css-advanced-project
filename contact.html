@@ -1,0 +1,29 @@
+---
+layout: main-layout
+title: contact
+permalink: /contact/
+---
+
+<input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
+<header>
+  {% include header-top.html %}
+
+  <section class="bottom">
+    {% include navigation.html %}
+  </section>
+</header>
+
+<main class="contact-main">
+  <section class="form-container">
+    <form action="#">
+      <p>Send a message</p>
+      <input type="text" class="name" placeholder="name">
+      <input type="text" class="email" placeholder="email">
+      <input type="text" class="phone" placeholder="phone">
+      <textarea name="" id="" cols="30" rows="5" placeholder="message"></textarea>
+      <input type="submit" value="Send">
+    </form>
+  </section>
+</main>
+
+{% include footer.html %}
