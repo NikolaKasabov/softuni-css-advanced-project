@@ -115,24 +115,24 @@ header .bottom .slogan {
 /* home header end */
 
 /* home main start */
-main {
+.home-main {
   background-color: var(--yellow-light);
   font-family: "Maven Pro", sans-serif;
 }
 
-main h3 {
+.home-main h3 {
   padding-bottom: 0.5em;
   font-weight: normal;
 }
 
-main .content {
+.home-main .content {
   margin: 0 auto;
   padding: 4em 0;
   width: 90%;
   text-align: center;
 }
 
-main .content hr {
+.home-main .content hr {
   margin: 1em auto;
   display: block;
   width: 85%;
@@ -140,7 +140,7 @@ main .content hr {
   border-bottom: 1px solid #d1b59f;
 }
 
-main .app {
+.home-main .app {
   margin: 0 auto;
   padding-bottom: 2em;
   width: 90%;
@@ -150,7 +150,7 @@ main .app {
   align-items: center;
 }
 
-main .app hr {
+.home-main .app hr {
   margin-bottom: 2em;
   width: 100%;
   display: block;
@@ -158,23 +158,23 @@ main .app hr {
   border-bottom: 1px solid var(--red);
 }
 
-main .app .icons {
+.home-main .app .icons {
   margin-top: 1em;
   display: flex;
 }
 
-main .app .icons a:first-child {
+.home-main .app .icons a:first-child {
   margin-right: 2em;
 }
 
-main .app .icons img {
+.home-main .app .icons img {
   width: 10em;
   height: auto;
   opacity: 0.7;
   transition: opacity 0.3s ease-in-out;
 }
 
-main .app .icons img:hover {
+.home-main .app .icons img:hover {
   opacity: 1;
 }
 /* home main end */
