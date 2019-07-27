@@ -77,8 +77,9 @@
   padding: 0.5em;
   line-height: 1;
   left: 0;
-  /* bottom: 1em; */
-  top:0; right:0; bottom:0; 
+  top: 0;
+  right: 0;
+  bottom: 0;
   pointer-events: none;
   background-color: #fff;
   opacity: 0;
@@ -130,7 +131,7 @@
 }
 
 .store-main .grid-container .card.card-9 {
-  animation-delay: 1.0s;
+  animation-delay: 1s;
 }
 
 .store-main .grid-container .card.card-10 {
