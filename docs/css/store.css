@@ -45,6 +45,28 @@
   z-index: -1;
 }
 
+.store-main .see-accessories {
+  padding-top: 1em;
+  text-align: center;
+  font-family: Courgette, sans-serif;
+  font-size: 1.5em;
+}
+
+.store-main .see-accessories a {
+  padding-bottom: 0.3em;
+  color: #000;
+  transition: color 0.2s ease-in-out;
+}
+
+.store-main .see-accessories a:hover{
+  color: var(--red);
+}
+
+.store-main .see-accessories a span {
+  padding-left: 0.4em;
+  font-size: 1.2em;
+}
+
 .store-main .grid-container {
   margin: 0 auto;
   padding: 2em 0;
