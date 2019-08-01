@@ -1,7 +1,127 @@
-body {
-  /* background-color: red; */
+.about-main {
+  position: relative;
+  background: none;
+  border-top: 2px solid var(--red);
 }
 
-header .bottom {
-  background: none;
+.about-main:before {
+  display: block;
+  content: "";
+  background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
+    url(../images/main.jpg) center / cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+  z-index: -1;
 }
+
+.about-main .grid-container {
+  padding: 2em 0;
+  display: grid;
+  grid-template-columns: repeat(3, 25vw);
+  grid-gap: 10px;
+  justify-content: center;
+  grid-auto-flow: dense;
+}
+
+.about-main .grid-container div {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.15s ease-in;
+}
+
+.about-main .grid-container div:before {
+  display: block;
+  content: "";
+  padding-top: 100%;
+}
+
+.about-main .grid-container img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-main .grid-container img.landscape {
+  width: auto;
+  height: 100%;
+}
+
+.about-main .grid-container img.portrait {
+  width: 100%;
+  height: auto;
+}
+
+.about-main .grid-container .small {
+  grid-row-start: span 1;
+  grid-column-start: span 1;
+}
+
+.about-main .grid-container .big {
+  grid-row-start: span 2;
+  grid-column-start: span 2;
+}
+
+.about-main .grid-container .high {
+  grid-row-start: span 2;
+  grid-column-start: span 1;
+}
+
+.about-main .grid-container .image {
+  border: 2px solid rgba(246, 242, 228, 0.8);
+  box-shadow: 0 0 0.5em 0 rgba(246, 242, 228, 0.8);
+  border-radius: 0.3em;
+}
+
+.about-main .grid-container .image:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.about-main .grid-container .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.about-main .grid-container .order-1 {
+  order: 1;
+}
+
+.about-main .grid-container .order-2 {
+  order: 3;
+}
+
+.about-main .grid-container .order-3 {
+  order: 2;
+}
+
+.about-main .grid-container .order-4 {
+  order: 4;
+}
+
+/* @media (min-width: 768px) {
+  .about-main .grid-container {
+    grid-template-columns: repeat(3, 18vw);
+  }
+}
+
+@media (min-width: 1300px) {
+  .about-main .grid-container {
+    grid-template-columns: repeat(6, 9vw);
+  }
+
+  .about-main .grid-container .order-2 {
+    order: 2;
+  }
+
+  .about-main .grid-container .order-3 {
+    order: 3;
+  }
+} */

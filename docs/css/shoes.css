@@ -58,7 +58,7 @@
   transition: color 0.2s ease-in-out;
 }
 
-.store-main .see-accessories a:hover{
+.store-main .see-accessories a:hover {
   color: var(--red);
 }
 

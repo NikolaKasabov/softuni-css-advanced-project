@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Maven+Pro&display=swap');
+
+html {
+  font: 12px/1.5 Courgette, sans-serif;
+}
+
+li {
+  list-style: none outside;
+}
+
+a {
+  text-decoration: none;
+}

@@ -56,7 +56,7 @@
   transition: color 0.2s ease-in-out;
 }
 
-.store-main .back-to-shoes a:hover {
+.store-main .back-to-shoes a:hover{
   color: var(--red);
 }
 
