@@ -26,8 +26,6 @@
   position: relative;
   background: none;
   border-top: 2px solid var(--red);
-  /* border-bottom: 2px solid var(--red); */
-
   font-family: "Maven Pro", sans-serif;
 }
 
@@ -74,11 +72,8 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   /* grid-template-rows: repeat(3, 1fr); */
-
   grid-column-gap: 3em;
-  /* grid-column-gap: 40px; */
   grid-row-gap: 2em;
-  /* grid-row-gap: 30px; */
 }
 
 /* card start */
@@ -89,7 +84,6 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3); */
   box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.3);
   border-radius: 0.3em;
 
