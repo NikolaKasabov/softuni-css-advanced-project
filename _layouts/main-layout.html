@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <!-- <title>Al's Shoe Store</title> -->
   <title>{{ page.title | capitalize}}</title>
   <script src="https://kit.fontawesome.com/e353408577.js"></script>
   <script src="scripts/site.js"></script>
+  {% if page.title == "Al's Shoe Store" %}
   <link rel="stylesheet" href="slick/slick.css">
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+  {% endif %}
   <link rel="stylesheet" href="/temp-project/css/style.css">
   {% if page.title != "Al's Shoe Store"  %}
   <link rel="stylesheet" href="/temp-project/css/{{page.title}}.css">
