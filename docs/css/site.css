@@ -1075,7 +1075,7 @@ footer .bottom:before {
             animation-delay: 1s; }
   /* store animation delay end */ }
 
-@media (min-width: 1900px) {
+@media (min-width: 1800px) {
   header .bottom h1 {
     padding-top: 3em; }
   header .bottom .slogan {
