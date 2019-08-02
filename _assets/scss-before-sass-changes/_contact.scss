@@ -1,0 +1,113 @@
+/* contact css start */
+@keyframes contact-show {
+  from {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.contact-main {
+  position: relative;
+  background: none;
+  border-top: 2px solid var(--red);
+}
+
+.contact-main:before {
+  display: block;
+  content: "";
+  background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
+    url("../images/main.jpg") center / cover no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.contact-main .form-container form {
+  margin: 0 auto;
+  padding: 5em 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Courgette", sans-serif;
+
+}
+
+.contact-main .form-container form p {
+  padding-bottom: 0.5em;
+  font-size: 1.5em;
+}
+
+.contact-main .form-container form input[type="text"],
+.contact-main .form-container form textarea {
+  margin-top: 1rem;
+  padding: 1em;
+  width: 20em;
+  display: block;
+  font-family: "Courgette", sans-serif;
+  font-size: 1em;
+  background-color: #fff;
+  border: none;
+  border-radius: 0.3em;
+  box-shadow: 0 0 0.3rem 0 rgba(172, 38, 43, 0.3);
+  outline: none;
+
+  animation-name: contact-show;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
+}
+
+.contact-main .form-container form input:hover,
+.contact-main .form-container form input:focus,
+.contact-main .form-container form textarea:hover,
+.contact-main .form-container form textarea:focus {
+  box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.8);
+}
+
+.contact-main .form-container form .name {
+  animation-delay: 0.1s;
+}
+
+.contact-main .form-container form .email {
+  animation-delay: 0.2s;
+}
+
+.contact-main .form-container form .phone {
+  animation-delay: 0.3s;
+}
+
+.contact-main .form-container form textarea {
+  animation-delay: 0.4s;
+}
+
+.contact-main .form-container form input[type="submit"] {
+  margin-top: 2rem;
+  padding: 0.5em 2.5em;
+  font-size: 1.2em;
+  font-family: "Courgette", sans-serif;
+  border: none;
+  background-color: #fff;
+  border-radius: 0.2em;
+  box-shadow: 0 0 0.3rem 0 rgba(172, 38, 43, 0.3);
+  animation: contact-show 0.3s ease-in;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
+  cursor: pointer;
+  outline: none;
+}
+
+.contact-main .form-container form input[type="submit"]:hover,
+.contact-main .form-container form input[type="submit"]:focus {
+  color: var(--red);
+  box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.8);
+}
+/* contact css end */
