@@ -1,36 +1,36 @@
 /* accessories css start */
-@keyframes card-show {
-  from {
-    transform: scale(1.1);
-    opacity: 0;
-  }
+// @keyframes card-show {
+//   from {
+//     transform: scale(1.1);
+//     opacity: 0;
+//   }
 
-  to {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
+//   to {
+//     transform: scale(1);
+//     opacity: 1;
+//   }
+// }
 
-.store-main {
-  position: relative;
-  background: none;
-  border-top: 2px solid var(--red);
-  font-family: "Maven Pro", sans-serif;
-}
+// .store-main {
+//   position: relative;
+//   background: none;
+//   border-top: 2px solid var(--red);
+//   font-family: "Maven Pro", sans-serif;
+// }
 
-.store-main:before {
-  display: block;
-  content: "";
-  background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
-    url("../images/main.jpg") center / cover no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.4;
-  z-index: -1;
-}
+// .store-main:before {
+//   display: block;
+//   content: "";
+//   background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
+//     url("../images/main.jpg") center / cover no-repeat;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   bottom: 0;
+//   right: 0;
+//   opacity: 0.4;
+//   z-index: -1;
+// }
 
 .store-main .back-to-shoes {
   padding-top: 1em;
@@ -55,64 +55,60 @@
   font-size: 1.2em;
 }
 
-.store-main .grid-container {
-  margin: 0 auto;
-  padding: 2em 0;
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  /* grid-template-rows: repeat(3, 1fr); */
-
-  grid-column-gap: 3em;
-  /* grid-column-gap: 40px; */
-  grid-row-gap: 2em;
-  /* grid-row-gap: 30px; */
-}
+// .store-main .grid-container {
+//   margin: 0 auto;
+//   padding: 2em 0;
+//   width: 50%;
+//   display: grid;
+//   grid-template-columns: repeat(1, 1fr);
+//   /* grid-template-rows: repeat(3, 1fr); */
+//   grid-column-gap: 3em;
+//   grid-row-gap: 2em;
+// }
 
 /* card start */
-.store-main .grid-container .card {
-  background-color: #fff;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  /* box-shadow: 0 0 0.5rem 0 rgba(0, 0, 0, 0.3); */
-  box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.3);
-  border-radius: 0.3em;
+// .store-main .grid-container .card {
+//   background-color: #fff;
+//   text-align: center;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-around;
+//   align-items: center;
+//   box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.3);
+//   border-radius: 0.3em;
 
-  animation-name: card-show;
-  animation-timing-function: ease-in;
-  animation-duration: 0.3s;
-  animation-fill-mode: both;
-}
+//   animation-name: card-show;
+//   animation-timing-function: ease-in;
+//   animation-duration: 0.3s;
+//   animation-fill-mode: both;
+// }
 
-.store-main .grid-container .card .text {
-  padding-bottom: 1em;
-  width: 100%;
-  position: relative;
-}
+// .store-main .grid-container .card .text {
+//   padding-bottom: 1em;
+//   width: 100%;
+//   position: relative;
+// }
 
 /* description start */
-.store-main .grid-container .card .description {
-  position: absolute;
-  padding: 0.5em;
-  line-height: 1;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-  background-color: #fff;
-  opacity: 0;
-  transform: scale(0.9);
-  transition: all 0.3s ease-out;
-}
+// .store-main .grid-container .card .description {
+//   position: absolute;
+//   padding: 0.5em;
+//   line-height: 1;
+//   left: 0;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   pointer-events: none;
+//   background-color: #fff;
+//   opacity: 0;
+//   transform: scale(0.9);
+//   transition: all 0.3s ease-out;
+// }
 
-.store-main .grid-container .card .image:hover + .text .description {
-  opacity: 1;
-  transform: scale(1);
-}
+// .store-main .grid-container .card .image:hover + .text .description {
+//   opacity: 1;
+//   transform: scale(1);
+// }
 /* description end */
 
 /* card animation delays start*/
@@ -169,48 +165,48 @@
 // }
 /* card animation delays end*/
 
-.store-main .grid-container .card .image {
-  width: 12em;
-  height: 12em;
-  position: relative;
-}
+// .store-main .grid-container .card .image {
+//   width: 12em;
+//   height: 12em;
+//   position: relative;
+// }
 
-.store-main .grid-container .card .image:before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-}
+// .store-main .grid-container .card .image:before {
+//   display: block;
+//   content: "";
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+// }
 
-.store-main .grid-container .card .image:after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: 1;
-  transition: opacity 0.4s ease-in;
-}
+// .store-main .grid-container .card .image:after {
+//   display: block;
+//   content: "";
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   opacity: 1;
+//   transition: opacity 0.4s ease-in;
+// }
 
-.store-main .grid-container .card .image:hover:after {
-  opacity: 0;
-}
+// .store-main .grid-container .card .image:hover:after {
+//   opacity: 0;
+// }
 
-.store-main .grid-container .card .add-to-cart {
-  margin-bottom: 1em;
-  color: var(--red);
-  font-size: 1.1em;
-  text-decoration: none;
-  opacity: 0;
-  transform: scale(1.1);
-  transition: opacity 0.3s ease-in, transform 0.2s ease-in;
-}
+// .store-main .grid-container .card .add-to-cart {
+//   margin-bottom: 1em;
+//   color: var(--red);
+//   font-size: 1.1em;
+//   text-decoration: none;
+//   opacity: 0;
+//   transform: scale(1.1);
+//   transition: opacity 0.3s ease-in, transform 0.2s ease-in;
+// }
 
-.store-main .grid-container .card:hover .add-to-cart {
-  opacity: 1;
-  transform: scale(1);
-}
+// .store-main .grid-container .card:hover .add-to-cart {
+//   opacity: 1;
+//   transform: scale(1);
+// }
 
 .store-main.accessories .grid-container .card.card-1 .image:before {
   background: url("../images/accessories/1-2.jpeg") center / contain no-repeat;
