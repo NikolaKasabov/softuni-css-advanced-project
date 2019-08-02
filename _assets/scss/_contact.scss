@@ -1,15 +1,3 @@
-@-webkit-keyframes show {
-  from {
-    opacity: 0;
-    transform: scale(1.2);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
 @keyframes show {
   from {
     opacity: 0;
@@ -71,15 +59,10 @@
   box-shadow: 0 0 0.3rem 0 rgba(172, 38, 43, 0.3);
   outline: none;
 
-  -webkit-animation-name: show;
-
-          animation-name: show;
-  -webkit-animation-duration: 0.3s;
-          animation-duration: 0.3s;
-  -webkit-animation-timing-function: ease-in;
-          animation-timing-function: ease-in;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-name: show;
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: both;
 }
 
 .contact-main .form-container form input:hover,
@@ -90,23 +73,19 @@
 }
 
 .contact-main .form-container form .name {
-  -webkit-animation-delay: 0.1s;
-          animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .contact-main .form-container form .email {
-  -webkit-animation-delay: 0.2s;
-          animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .contact-main .form-container form .phone {
-  -webkit-animation-delay: 0.3s;
-          animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .contact-main .form-container form textarea {
-  -webkit-animation-delay: 0.4s;
-          animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .contact-main .form-container form input[type="submit"] {
@@ -118,12 +97,9 @@
   background-color: #fff;
   border-radius: 0.2em;
   box-shadow: 0 0 0.3rem 0 rgba(172, 38, 43, 0.3);
-  -webkit-animation: show 0.3s ease-in;
-          animation: show 0.3s ease-in;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation: show 0.3s ease-in;
+  animation-fill-mode: both;
+  animation-delay: 0.5s;
   cursor: pointer;
   outline: none;
 }
