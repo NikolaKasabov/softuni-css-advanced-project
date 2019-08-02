@@ -290,7 +290,8 @@ footer .bottom:before {
   color: #000;
   transition: color 0.2s ease-in-out; }
 
-.store-main .see-accessories a:hover {
+.store-main .see-accessories a:hover,
+.store-main .see-accessories a:focus {
   color: var(--red); }
 
 .store-main .see-accessories a span {
@@ -554,7 +555,8 @@ footer .bottom:before {
   color: #000;
   transition: color 0.2s ease-in-out; }
 
-.store-main .back-to-shoes a:hover {
+.store-main .back-to-shoes a:hover,
+.store-main .back-to-shoes a:focus {
   color: var(--red); }
 
 .store-main .back-to-shoes a span {
