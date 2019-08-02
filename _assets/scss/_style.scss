@@ -93,24 +93,27 @@ header {
       }
     }
     /* header nav end */
+
+    h1 {
+      padding-top: 2em;
+      font-size: 3em;
+      color: #fff;
+      text-align: center;
+      text-shadow: 0 3px 10px rgba(172, 55, 38, 1);
+    }
+
+    .slogan {
+      padding-bottom: 4em;
+      font-size: 1.6em;
+      color: #fff;
+      text-shadow: 1px -1px 0 var(--red), 1px 1px 0 var(--red);
+    }
   }
+  /* header end */
 }
 
-header .bottom h1 {
-  padding-top: 2em;
-  font-size: 3em;
-  color: #fff;
-  text-align: center;
-  text-shadow: 0 3px 10px rgba(172, 55, 38, 1);
-}
 
-header .bottom .slogan {
-  padding-bottom: 4em;
-  font-size: 1.6em;
-  color: #fff;
-  text-shadow: 1px -1px 0 var(--red), 1px 1px 0 var(--red);
-}
-/* header end */
+
 
 /* home main start */
 .home-main {
