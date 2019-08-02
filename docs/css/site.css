@@ -1,3 +1,4 @@
+/* reset css start */
 @import url("https://fonts.googleapis.com/css?family=Courgette|Maven+Pro&display=swap");
 *,
 *:before,
@@ -9,11 +10,15 @@
 html {
   box-sizing: border-box; }
 
+/* reset css end */
+/* variables css start */
 :root {
   --red: #ac262b;
   --yellow-dark: #f2e2cb;
   --yellow-light: #f6f2e4; }
 
+/* variables css end */
+/* typography css start */
 html {
   font: 12px/1.5 Courgette, sans-serif; }
 
@@ -23,6 +28,8 @@ li {
 a {
   text-decoration: none; }
 
+/* typography css end */
+/* carousel css start */
 .carousel-wrapper {
   margin: 0 auto;
   width: 100%;
@@ -37,6 +44,8 @@ a {
 .carousel div {
   display: block; }
 
+/* carousel css end */
+/* style css start */
 #main-nav-toggle {
   display: none; }
 
@@ -235,6 +244,8 @@ footer .bottom:before {
   border-bottom: 2px solid #fff; }
 
 /* footer end */
+/* style css end */
+/* shoes css start */
 @-webkit-keyframes card-show {
   from {
     transform: scale(1.1);
@@ -504,6 +515,8 @@ footer .bottom:before {
   background: url("../images/shoes/12-1.jpeg") center/contain no-repeat; }
 
 /* card end */
+/* shoes css end */
+/* accessories css start */
 @keyframes card-show {
   from {
     transform: scale(1.1);
@@ -717,6 +730,8 @@ footer .bottom:before {
   background: url("../images/accessories/12-1.jpeg") center/contain no-repeat; }
 
 /* card end */
+/* accessories css end */
+/* about css start */
 @-webkit-keyframes about-show {
   from {
     opacity: 0; }
@@ -903,6 +918,8 @@ footer .bottom:before {
 .about-main .grid-container .order-4 {
   order: 4; }
 
+/* about css end */
+/* contact css start */
 @-webkit-keyframes contact-show {
   from {
     opacity: 0;
@@ -910,7 +927,6 @@ footer .bottom:before {
   to {
     opacity: 1;
     transform: scale(1); } }
-
 @keyframes contact-show {
   from {
     opacity: 0;
@@ -1015,6 +1031,8 @@ footer .bottom:before {
   color: var(--red);
   box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.8); }
 
+/* contact css end */
+/* media-queries css start */
 @media (min-width: 480px) {
   header .top {
     padding: 0.5em 10vw; }
@@ -1177,3 +1195,5 @@ footer .bottom:before {
     padding-top: 3em; }
   header .bottom .slogan {
     padding-bottom: 7em; } }
+
+/* media-queries css end */

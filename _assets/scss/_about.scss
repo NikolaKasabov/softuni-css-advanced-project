@@ -1,11 +1,10 @@
+/* about css start */
 @keyframes about-show {
   from {
-    // /* transform: scale(1.1); */
     opacity: 0;
   }
 
   to {
-    // /* transform: scale(1); */
     opacity: 1;
   }
 }
@@ -200,3 +199,4 @@
 .about-main .grid-container .order-4 {
   order: 4;
 }
+/* about css end */
