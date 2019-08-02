@@ -44,6 +44,8 @@ exclude:
   - docs
   - _assets
   - gulpfile.js
+  - gulpfile-before-sass.js
   - package.json
   - package-lock.json
   - testing
+  - 1.CSS-Advanced-Project-Assignment.md
