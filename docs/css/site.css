@@ -716,12 +716,12 @@ footer .bottom:before {
   background: url("../images/accessories/12-1.jpeg") center/contain no-repeat; }
 
 /* card end */
-@-webkit-keyframes show {
+@-webkit-keyframes about-show {
   from {
     opacity: 0; }
   to {
     opacity: 1; } }
-@keyframes show {
+@keyframes about-show {
   from {
     opacity: 0; }
   to {
@@ -756,8 +756,8 @@ footer .bottom:before {
   position: relative;
   overflow: hidden;
   transition: transform 0.15s ease-in;
-  -webkit-animation-name: show;
-          animation-name: show;
+  -webkit-animation-name: about-show;
+          animation-name: about-show;
   -webkit-animation-timing-function: ease-in;
           animation-timing-function: ease-in;
   -webkit-animation-duration: 0.3s;
@@ -902,7 +902,15 @@ footer .bottom:before {
 .about-main .grid-container .order-4 {
   order: 4; }
 
-@keyframes show {
+@-webkit-keyframes contact-show {
+  from {
+    opacity: 0;
+    transform: scale(1.2); }
+  to {
+    opacity: 1;
+    transform: scale(1); } }
+
+@keyframes contact-show {
   from {
     opacity: 0;
     transform: scale(1.2); }
@@ -952,8 +960,8 @@ footer .bottom:before {
   border-radius: 0.3em;
   box-shadow: 0 0 0.3rem 0 rgba(172, 38, 43, 0.3);
   outline: none;
-  -webkit-animation-name: show;
-          animation-name: show;
+  -webkit-animation-name: contact-show;
+          animation-name: contact-show;
   -webkit-animation-duration: 0.3s;
           animation-duration: 0.3s;
   -webkit-animation-timing-function: ease-in;
@@ -992,8 +1000,8 @@ footer .bottom:before {
   background-color: #fff;
   border-radius: 0.2em;
   box-shadow: 0 0 0.3rem 0 rgba(172, 38, 43, 0.3);
-  -webkit-animation: show 0.3s ease-in;
-          animation: show 0.3s ease-in;
+  -webkit-animation: contact-show 0.3s ease-in;
+          animation: contact-show 0.3s ease-in;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-animation-delay: 0.5s;
