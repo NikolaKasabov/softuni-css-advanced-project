@@ -1,60 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: main-layout
+title: accessories
+permalink: /accessories/
+---
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Accessories</title>
-  <script src="https://kit.fontawesome.com/e353408577.js"></script>
-  <script src="scripts/site.js"></script>
-  
-  <!-- <link rel="stylesheet" href="/temp-project/css/style.css"> -->
-  <link rel="stylesheet" href="/temp-project/css/site.css">
-  <!-- <link rel="stylesheet" href="/temp-project/css/accessories.css">
-  <link rel="stylesheet" href="/temp-project/css/media-queries.css"> -->
-</head>
-
-<body>
-  <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
+<input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
 <header>
-  <section class="top">
-  <div class="icons">
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-google-plus-g"></i></a>
-  </div>
-
-  <div class="phone">
-    <p><i class="fas fa-phone-alt"></i></p>
-    <p>555-SHOE</p>
-  </div>
-
-  <div class="email">
-    <p><i class="fas fa-envelope"></i></p>
-    <p>al.bundy@gmail.com</p>
-  </div>
-</section>
+  {% include header-top.html %}
 
   <section class="bottom">
-    <div class="nav-wrapper">
-  <label for="main-nav-toggle">
-  </label>
-  <nav>
-    <ul>
-      <li><a href="/temp-project/">Home</a></li>
-      <li><a href="/temp-project/store/">Products</a></li>
-      <li><a href="/temp-project/about/">About Al</a></li>
-      <li><a href="/temp-project/contact/">Contact</a></li>
-    </ul>
-  </nav>
-</div>
+    {% include navigation.html %}
   </section>
 </header>
 
-<main class="store-main accessories">
+<main class="store-main">
   <div class="back-to-shoes">
-    <a href="/temp-project/store/"><span>&#x2b88;</span>Back to Shoes</a>
+    <a href="{{ site.baseurl }}/store/"><span>&#x2b88;</span>Back to Shoes</a>
   </div>
   <section class="grid-container">
     <div class="card card-1">
@@ -191,41 +152,4 @@
   </section>
 </main>
 
-<footer class="site-footer">
-  <section class="top">
-    <div class="footer-item">
-      <h3>Al's shoe store</h3>
-      <p>Put your best foot forward in this season’s most decadent designer shoes from some of the finest footwear designers around.</p>
-    </div>
-
-    <div class="footer-item">
-      <h3>Quick Links</h3>
-      <nav>
-        <ul>
-          <li><a href="/temp-project/">Home</a></li>
-          <li><a href="/temp-project/store/">Products</a></li>
-          <li><a href="/temp-project/about/">About Al</a></li>
-          <li><a href="/temp-project/contact/">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-
-    <div class="footer-item">
-      <h3>Contact Info</h3>
-      <nav>
-        <ul>
-          <li><i class="fas fa-phone-volume"></i> 555-SHOE</li>
-          <li><i class="fas fa-envelope"></i> al.bundy@gmail.com</li>
-          <li><i class="fas fa-map-marker-alt"></i> New Market Mall, 60640 Chicago, Illinois</li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-
-  <section class="bottom">
-    <p>&#169; 2019 Al's Shoe Shop. All rights reserved.</p>
-  </section>
-</footer>
-</body>
-
-</html>
+{% include footer.html %}
