@@ -130,55 +130,46 @@ header {
 .home-main {
   background-color: var(--yellow-light);
   font-family: "Maven Pro", sans-serif; }
-
-.home-main h3 {
-  padding-bottom: 0.5em;
-  font-weight: normal; }
-
-.home-main .content {
-  margin: 0 auto;
-  padding: 4em 0;
-  width: 90%;
-  text-align: center; }
-
-.home-main .content hr {
-  margin: 1em auto;
-  display: block;
-  width: 85%;
-  border: none;
-  border-bottom: 1px solid #d1b59f; }
-
-.home-main .app {
-  margin: 0 auto;
-  padding-bottom: 2em;
-  width: 90%;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
-.home-main .app hr {
-  margin-bottom: 2em;
-  width: 100%;
-  display: block;
-  border: none;
-  border-bottom: 1px solid var(--red); }
-
-.home-main .app .icons {
-  margin-top: 1em;
-  display: flex; }
-
-.home-main .app .icons a:first-child {
-  margin-right: 2em; }
-
-.home-main .app .icons img {
-  width: 10em;
-  height: auto;
-  opacity: 0.7;
-  transition: opacity 0.3s ease-in-out; }
-
-.home-main .app .icons img:hover {
-  opacity: 1; }
+  .home-main h3 {
+    padding-bottom: 0.5em;
+    font-weight: normal; }
+  .home-main .content {
+    margin: 0 auto;
+    padding: 4em 0;
+    width: 90%;
+    text-align: center; }
+    .home-main .content hr {
+      margin: 1em auto;
+      display: block;
+      width: 85%;
+      border: none;
+      border-bottom: 1px solid #d1b59f; }
+  .home-main .app {
+    margin: 0 auto;
+    padding-bottom: 2em;
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .home-main .app hr {
+      margin-bottom: 2em;
+      width: 100%;
+      display: block;
+      border: none;
+      border-bottom: 1px solid var(--red); }
+    .home-main .app .icons {
+      margin-top: 1em;
+      display: flex; }
+      .home-main .app .icons a:first-child {
+        margin-right: 2em; }
+      .home-main .app .icons img {
+        width: 10em;
+        height: auto;
+        opacity: 0.7;
+        transition: opacity 0.3s ease-in-out; }
+        .home-main .app .icons img:hover {
+          opacity: 1; }
 
 /* home main end */
 /* footer start */
