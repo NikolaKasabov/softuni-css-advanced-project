@@ -1,18 +1,29 @@
 /* carousel css start */
-.carousel-wrapper {
-  margin: 0 auto;
-  width: 100%;
-  border-top: 2px solid #ac262b;
-  border-bottom: 2px solid #ac262b;
+.carousel {
+  #{&}-wrapper {
+    margin: 0 auto;
+    width: 100%;
+    border-top: 2px solid #ac262b;
+    border-bottom: 2px solid #ac262b;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  div {
+    display: block;
+  }
 }
 
-.carousel img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+// .carousel-wrapper {
+// }
 
-.carousel div {
-  display: block;
-}
+// .carousel img {
+// }
+
+// .carousel div {
+// }
 /* carousel css end */
