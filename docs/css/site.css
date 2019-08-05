@@ -455,25 +455,16 @@ footer {
   text-align: center;
   font-family: Courgette, sans-serif;
   font-size: 1.5em; }
+  .store-main .back-to-shoes a {
+    padding-bottom: 0.3em;
+    color: #000;
+    transition: color 0.2s ease-in-out; }
+    .store-main .back-to-shoes a:hover, .store-main .back-to-shoes a:focus {
+      color: var(--red); }
+    .store-main .back-to-shoes a span {
+      padding-right: 0.4em;
+      font-size: 1.2em; }
 
-.store-main .back-to-shoes a {
-  padding-bottom: 0.3em;
-  color: #000;
-  transition: color 0.2s ease-in-out; }
-
-.store-main .back-to-shoes a:hover,
-.store-main .back-to-shoes a:focus {
-  color: var(--red); }
-
-.store-main .back-to-shoes a span {
-  padding-right: 0.4em;
-  font-size: 1.2em; }
-
-/* card start */
-/* description start */
-/* description end */
-/* card animation delays start*/
-/* card animation delays end*/
 .store-main.accessories .grid-container .card.card-1 .image:before {
   background: url("../images/accessories/1-2.jpeg") center/contain no-repeat; }
 
@@ -546,7 +537,6 @@ footer {
 .store-main.accessories .grid-container .card.card-12 .image:after {
   background: url("../images/accessories/12-1.jpeg") center/contain no-repeat; }
 
-/* card end */
 /* accessories css end */
 /* about css start */
 @-webkit-keyframes about-show {
