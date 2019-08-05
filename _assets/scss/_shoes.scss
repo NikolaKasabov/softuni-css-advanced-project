@@ -158,20 +158,21 @@
         opacity: 1;
         transform: scale(1);
       }
-
-      @for $i from 1 through 12 {
-        &.card-#{$i} .image:before {
-          background: url("../images/shoes/#{$i}-2.jpeg") center / contain no-repeat;
-        }
-
-        &.card-#{$i} .image:after {
-          background: url("../images/shoes/#{$i}-1.jpeg") center / contain no-repeat;
-        }
-      }
     }
   }
 }
 
+.store-main.shoes .grid-container .card {
+  @for $i from 1 through 12 {
+    &.card-#{$i} .image:before {
+      background: url("../images/shoes/#{$i}-2.jpeg") center / contain no-repeat;
+    }
+
+    &.card-#{$i} .image:after {
+      background: url("../images/shoes/#{$i}-1.jpeg") center / contain no-repeat;
+    }
+  }
+}
 
 // .store-main.shoes .grid-container .card.card-1 .image:before {
 //   background: url("../images/shoes/1-2.jpeg") center / contain no-repeat;
