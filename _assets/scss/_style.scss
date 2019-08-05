@@ -218,33 +218,23 @@ footer {
       }
     }
   }
-}
 
-footer .top h3 {
-}
+  .bottom {
+    margin-top: 2em;
+    text-align: center;
 
-footer .top a {
-}
+    p {
+      padding-top: 1em;
+      text-shadow: 0px 1px 0 var(--red);
+    }
 
-footer .top a:hover,
-footer .top a:focus {
-}
-
-footer .bottom {
-  margin-top: 2em;
-  text-align: center;
-}
-
-footer .bottom p {
-  padding-top: 1em;
-  text-shadow: 0px 1px 0 var(--red);
-}
-
-footer .bottom:before {
-  margin: 0 auto;
-  display: block;
-  content: "";
-  border-bottom: 2px solid #fff;
+    &:before {
+      margin: 0 auto;
+      display: block;
+      content: "";
+      border-bottom: 2px solid #fff;
+    }
+  }
 }
 /* footer end */
 /* style css end */
