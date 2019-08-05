@@ -1,12 +1,12 @@
 /* carousel css start */
-.carousel {
-  #{&}-wrapper {
-    margin: 0 auto;
-    width: 100%;
-    border-top: 2px solid #ac262b;
-    border-bottom: 2px solid #ac262b;
-  }
+.carousel-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  border-top: 2px solid #ac262b;
+  border-bottom: 2px solid #ac262b;
+}
 
+.carousel {
   img {
     display: block;
     width: 100%;
