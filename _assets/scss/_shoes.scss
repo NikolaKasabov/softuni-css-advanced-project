@@ -158,122 +158,115 @@
         opacity: 1;
         transform: scale(1);
       }
+
+      @for $i from 1 through 12 {
+        &.card-#{$i} .image:before {
+          background: url("../images/shoes/#{$i}-2.jpeg") center / contain no-repeat;
+        }
+
+        &.card-#{$i} .image:after {
+          background: url("../images/shoes/#{$i}-1.jpeg") center / contain no-repeat;
+        }
+      }
     }
   }
 }
 
-.store-main .grid-container .card .image {
-}
 
-.store-main .grid-container .card .image:before {
-}
+// .store-main.shoes .grid-container .card.card-1 .image:before {
+//   background: url("../images/shoes/1-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main .grid-container .card .image:after {
-}
+// .store-main.shoes .grid-container .card.card-1 .image:after {
+//   background: url("../images/shoes/1-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main .grid-container .card .image:hover:after {
-}
+// .store-main.shoes .grid-container .card.card-2 .image:before {
+//   background: url("../images/shoes/2-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main .grid-container .card .add-to-cart {
-}
+// .store-main.shoes .grid-container .card.card-2 .image:after {
+//   background: url("../images/shoes/2-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main .grid-container .card:hover .add-to-cart {
-}
+// .store-main.shoes .grid-container .card.card-3 .image:before {
+//   background: url("../images/shoes/3-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-1 .image:before {
-  background: url("../images/shoes/1-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-3 .image:after {
+//   background: url("../images/shoes/3-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-1 .image:after {
-  background: url("../images/shoes/1-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-4 .image:before {
+//   background: url("../images/shoes/4-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-2 .image:before {
-  background: url("../images/shoes/2-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-4 .image:after {
+//   background: url("../images/shoes/4-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-2 .image:after {
-  background: url("../images/shoes/2-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-5 .image:before {
+//   background: url("../images/shoes/5-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-3 .image:before {
-  background: url("../images/shoes/3-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-5 .image:after {
+//   background: url("../images/shoes/5-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-3 .image:after {
-  background: url("../images/shoes/3-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-6 .image:before {
+//   background: url("../images/shoes/6-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-4 .image:before {
-  background: url("../images/shoes/4-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-6 .image:after {
+//   background: url("../images/shoes/6-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-4 .image:after {
-  background: url("../images/shoes/4-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-7 .image:before {
+//   background: url("../images/shoes/7-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-5 .image:before {
-  background: url("../images/shoes/5-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-7 .image:after {
+//   background: url("../images/shoes/7-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-5 .image:after {
-  background: url("../images/shoes/5-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-8 .image:before {
+//   background: url("../images/shoes/8-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-6 .image:before {
-  background: url("../images/shoes/6-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-8 .image:after {
+//   background: url("../images/shoes/8-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-6 .image:after {
-  background: url("../images/shoes/6-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-9 .image:before {
+//   background: url("../images/shoes/9-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-7 .image:before {
-  background: url("../images/shoes/7-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-9 .image:after {
+//   background: url("../images/shoes/9-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-7 .image:after {
-  background: url("../images/shoes/7-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-10 .image:before {
+//   background: url("../images/shoes/10-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-8 .image:before {
-  background: url("../images/shoes/8-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-10 .image:after {
+//   background: url("../images/shoes/10-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-8 .image:after {
-  background: url("../images/shoes/8-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-11 .image:before {
+//   background: url("../images/shoes/11-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-9 .image:before {
-  background: url("../images/shoes/9-2.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-11 .image:after {
+//   background: url("../images/shoes/11-1.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-9 .image:after {
-  background: url("../images/shoes/9-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-12 .image:before {
+//   background: url("../images/shoes/12-2.jpeg") center / contain no-repeat;
+// }
 
-.store-main.shoes .grid-container .card.card-10 .image:before {
-  background: url("../images/shoes/10-2.jpeg") center / contain no-repeat;
-}
-
-.store-main.shoes .grid-container .card.card-10 .image:after {
-  background: url("../images/shoes/10-1.jpeg") center / contain no-repeat;
-}
-
-.store-main.shoes .grid-container .card.card-11 .image:before {
-  background: url("../images/shoes/11-2.jpeg") center / contain no-repeat;
-}
-
-.store-main.shoes .grid-container .card.card-11 .image:after {
-  background: url("../images/shoes/11-1.jpeg") center / contain no-repeat;
-}
-
-.store-main.shoes .grid-container .card.card-12 .image:before {
-  background: url("../images/shoes/12-2.jpeg") center / contain no-repeat;
-}
-
-.store-main.shoes .grid-container .card.card-12 .image:after {
-  background: url("../images/shoes/12-1.jpeg") center / contain no-repeat;
-}
+// .store-main.shoes .grid-container .card.card-12 .image:after {
+//   background: url("../images/shoes/12-1.jpeg") center / contain no-repeat;
+// }
 /* card end */
 /* shoes css end */
