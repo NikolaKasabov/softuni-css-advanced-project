@@ -285,7 +285,9 @@ footer {
       -webkit-animation-duration: 0.3s;
               animation-duration: 0.3s;
       -webkit-animation-fill-mode: both;
-              animation-fill-mode: both; }
+              animation-fill-mode: both;
+      /* card animation delays start*/
+      /* card animation delays end*/ }
       .store-main .grid-container .card .text {
         padding-bottom: 1em;
         width: 100%;
@@ -341,45 +343,37 @@ footer {
       .store-main .grid-container .card.card-12 {
         -webkit-animation-delay: 1.1s;
                 animation-delay: 1.1s; }
-
-/* card animation delays start*/
-/* card animation delays end*/
-.store-main .grid-container .card .image {
-  width: 12em;
-  height: 12em;
-  position: relative; }
-
-.store-main .grid-container .card .image:before {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute; }
-
-.store-main .grid-container .card .image:after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  opacity: 1;
-  transition: opacity 0.4s ease-in; }
-
-.store-main .grid-container .card .image:hover:after {
-  opacity: 0; }
-
-.store-main .grid-container .card .add-to-cart {
-  margin-bottom: 1em;
-  color: var(--red);
-  font-size: 1.1em;
-  text-decoration: none;
-  opacity: 0;
-  transform: scale(1.1);
-  transition: opacity 0.3s ease-in, transform 0.2s ease-in; }
-
-.store-main .grid-container .card:hover .add-to-cart {
-  opacity: 1;
-  transform: scale(1); }
+      .store-main .grid-container .card .image {
+        width: 12em;
+        height: 12em;
+        position: relative; }
+        .store-main .grid-container .card .image:before {
+          display: block;
+          content: "";
+          width: 100%;
+          height: 100%;
+          position: absolute; }
+        .store-main .grid-container .card .image:after {
+          display: block;
+          content: "";
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          opacity: 1;
+          transition: opacity 0.4s ease-in; }
+        .store-main .grid-container .card .image:hover:after {
+          opacity: 0; }
+      .store-main .grid-container .card .add-to-cart {
+        margin-bottom: 1em;
+        color: var(--red);
+        font-size: 1.1em;
+        text-decoration: none;
+        opacity: 0;
+        transform: scale(1.1);
+        transition: opacity 0.3s ease-in, transform 0.2s ease-in; }
+      .store-main .grid-container .card:hover .add-to-cart {
+        opacity: 1;
+        transform: scale(1); }
 
 .store-main.shoes .grid-container .card.card-1 .image:before {
   background: url("../images/shoes/1-2.jpeg") center/contain no-repeat; }
