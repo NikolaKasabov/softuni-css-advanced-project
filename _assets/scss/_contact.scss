@@ -14,7 +14,7 @@
 .contact-main {
   position: relative;
   background: none;
-  border-top: 2px solid var(--red);
+  border-top: 2px solid $red;
 
   &:before {
     display: block;
@@ -104,7 +104,7 @@
 
     input[type="submit"]:hover,
     input[type="submit"]:focus {
-      color: var(--red);
+      color: $red;
       box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.8);
     }
   }

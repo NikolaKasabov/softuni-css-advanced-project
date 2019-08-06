@@ -27,7 +27,7 @@
 .about-main {
   position: relative;
   background: none;
-  border-top: 2px solid var(--red);
+  border-top: 2px solid $red;
 
   &:before {
     display: block;

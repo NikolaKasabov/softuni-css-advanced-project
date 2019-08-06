@@ -14,7 +14,7 @@
 .store-main {
   position: relative;
   background: none;
-  border-top: 2px solid var(--red);
+  border-top: 2px solid $red;
   font-family: "Maven Pro", sans-serif;
 
   &:before {
@@ -44,7 +44,7 @@
 
       &:hover,
       &:focus {
-        color: var(--red);
+        color: $red;
       }
 
       span {
@@ -146,7 +146,7 @@
 
       .add-to-cart {
         margin-bottom: 1em;
-        color: var(--red);
+        color: $red;
         font-size: 1.1em;
         text-decoration: none;
         opacity: 0;
