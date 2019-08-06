@@ -593,7 +593,7 @@ footer {
   content: "";
   padding-top: 100%; }
 
-/* animation delay start */
+/* about animation delay start */
 .about-main .grid-container div:nth-child(2) {
   -webkit-animation-delay: 0.1s;
           animation-delay: 0.1s; }
@@ -670,7 +670,7 @@ footer {
   -webkit-animation-delay: 1.9s;
           animation-delay: 1.9s; }
 
-/* animation delay end */
+/* about animation delay end */
 .about-main .grid-container img {
   position: absolute;
   top: 50%;
