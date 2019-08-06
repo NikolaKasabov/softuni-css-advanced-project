@@ -2,15 +2,17 @@
 @media (min-width: 480px) {
   header .top {
     padding: 0.5em 10vw;
+
+    .icons a {
+      margin-right: 1em;
+    }
   }
 
-  header .top .icons a {
-    margin-right: 1em;
-  }
-
-  .home-main .content,
-  .home-main .app {
-    width: 80%;
+  .home-main {
+    .content,
+    .app {
+      width: 80%;
+    }
   }
 }
 
@@ -30,38 +32,20 @@
   .store-main .grid-container {
     width: 70%;
     grid-template-columns: repeat(2, 1fr);
-  }
 
-  /* store animation delay start */
-  .store-main .grid-container .card.card-2,
-  .store-main .grid-container .card.card-3 {
-    animation-delay: 0.2s;
-  }
+    // store animation delays start
+    @for $i from 1 through 5 {
+      .card.card-#{$i * 2},
+      .card.card-#{$i * 2 + 1} {
+        animation-delay: 0.2s * $i;
+      }
+    }
 
-  .store-main .grid-container .card.card-4,
-  .store-main .grid-container .card.card-5 {
-    animation-delay: 0.4s;
+    .card.card-12 {
+      animation-delay: 1.2s;
+    }
+    // store animation delays end
   }
-
-  .store-main .grid-container .card.card-6,
-  .store-main .grid-container .card.card-7 {
-    animation-delay: 0.6s;
-  }
-
-  .store-main .grid-container .card.card-8,
-  .store-main .grid-container .card.card-9 {
-    animation-delay: 0.8s;
-  }
-
-  .store-main .grid-container .card.card-10,
-  .store-main .grid-container .card.card-11 {
-    animation-delay: 1s;
-  }
-
-  .store-main .grid-container .card.card-12 {
-    animation-delay: 1.2s;
-  }
-  /* store animation delay end */
 }
 
 @media (min-width: 768px) {
@@ -126,7 +110,7 @@
   html {
     font-size: 18px;
   }
-  
+
   header .bottom h1 {
     padding-top: 1.55em;
     font-size: 4em;
@@ -209,7 +193,7 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-  /* store animation delay start */  
+  /* store animation delay start */
   .store-main .grid-container .card.card-2,
   .store-main .grid-container .card.card-5 {
     animation-delay: 0.2s;
