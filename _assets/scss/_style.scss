@@ -60,7 +60,7 @@ header {
       content: "\2630";
       font-size: 2.5em;
       color: #fff;
-      text-shadow: 0 3px 3px rgba(172, 55, 38, 1);
+      text-shadow: 0 3px 3px $color-text-shadow;
     }
 
     nav {
@@ -99,7 +99,7 @@ header {
       font-size: 3em;
       color: #fff;
       text-align: center;
-      text-shadow: 0 3px 10px rgba(172, 55, 38, 1);
+      text-shadow: 0 3px 10px $color-text-shadow;
     }
 
     .slogan {
