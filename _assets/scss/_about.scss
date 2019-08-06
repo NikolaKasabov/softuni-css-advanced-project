@@ -13,124 +13,133 @@
   position: relative;
   background: none;
   border-top: 2px solid var(--red);
+
+  &:before {
+    display: block;
+    content: "";
+    background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
+      url(../images/main.jpg) center / cover no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.4;
+    z-index: -1;
+  }
+
+  .grid-container {
+    padding: 2em 0;
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    grid-gap: 10px;
+    justify-content: center;
+    grid-auto-flow: dense;
+
+    div {
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.15s ease-in;
+
+      animation-name: about-show;
+      animation-timing-function: ease-in;
+      animation-duration: 0.3s;
+      animation-fill-mode: both;
+
+      &:before {
+        display: block;
+        content: "";
+        padding-top: 100%;
+      }
+
+      // about animation delays start
+      @for $i from 2 through 20 {
+        &:nth-child(#{$i}){
+          animation-delay: (0.1s * $i) - 0.1s; 
+        }
+      }
+      // about animation delays end
+    }
+  }
 }
 
-.about-main:before {
-  display: block;
-  content: "";
-  background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
-    url(../images/main.jpg) center / cover no-repeat;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0.4;
-  z-index: -1;
-}
-
-.about-main .grid-container {
-  padding: 2em 0;
-  display: grid;
-  grid-template-columns: repeat(3, 25vw);
-  grid-gap: 10px;
-  justify-content: center;
-  grid-auto-flow: dense;
-}
-
-.about-main .grid-container div {
-  position: relative;
-  overflow: hidden;
-  transition: transform 0.15s ease-in;
-
-  animation-name: about-show;
-  animation-timing-function: ease-in;
-  animation-duration: 0.3s;
-  animation-fill-mode: both;
-}
-
-.about-main .grid-container div:before {
-  display: block;
-  content: "";
-  padding-top: 100%;
-}
 
 /* about animation delay start */
-.about-main .grid-container div:nth-child(2){
-  animation-delay: 0.1s;
-}
+// .about-main .grid-container div:nth-child(2) {
+//   animation-delay: 0.1s;
+// }
 
-.about-main .grid-container div:nth-child(3){
-  animation-delay: 0.2s;
-}
+// .about-main .grid-container div:nth-child(3) {
+//   animation-delay: 0.2s;
+// }
 
-.about-main .grid-container div:nth-child(4){
-  animation-delay: 0.3s;
-}
+// .about-main .grid-container div:nth-child(4) {
+//   animation-delay: 0.3s;
+// }
 
-.about-main .grid-container div:nth-child(5){
-  animation-delay: 0.4s;
-}
+// .about-main .grid-container div:nth-child(5) {
+//   animation-delay: 0.4s;
+// }
 
-.about-main .grid-container div:nth-child(6){
-  animation-delay: 0.5s;
-}
+// .about-main .grid-container div:nth-child(6) {
+//   animation-delay: 0.5s;
+// }
 
-.about-main .grid-container div:nth-child(7){
-  animation-delay: 0.6s;
-}
+// .about-main .grid-container div:nth-child(7) {
+//   animation-delay: 0.6s;
+// }
 
-.about-main .grid-container div:nth-child(8){
-  animation-delay: 0.7s;
-}
+// .about-main .grid-container div:nth-child(8) {
+//   animation-delay: 0.7s;
+// }
 
-.about-main .grid-container div:nth-child(9){
-  animation-delay: 0.8s;
-}
+// .about-main .grid-container div:nth-child(9) {
+//   animation-delay: 0.8s;
+// }
 
-.about-main .grid-container div:nth-child(10){
-  animation-delay: 0.9s;
-}
+// .about-main .grid-container div:nth-child(10) {
+//   animation-delay: 0.9s;
+// }
 
-.about-main .grid-container div:nth-child(11){
-  animation-delay: 1s;
-}
+// .about-main .grid-container div:nth-child(11) {
+//   animation-delay: 1s;
+// }
 
-.about-main .grid-container div:nth-child(12){
-  animation-delay: 1.1s;
-}
+// .about-main .grid-container div:nth-child(12) {
+//   animation-delay: 1.1s;
+// }
 
-.about-main .grid-container div:nth-child(13){
-  animation-delay: 1.2s;
-}
+// .about-main .grid-container div:nth-child(13) {
+//   animation-delay: 1.2s;
+// }
 
-.about-main .grid-container div:nth-child(14){
-  animation-delay: 1.3s;
-}
+// .about-main .grid-container div:nth-child(14) {
+//   animation-delay: 1.3s;
+// }
 
-.about-main .grid-container div:nth-child(15){
-  animation-delay: 1.4s;
-}
+// .about-main .grid-container div:nth-child(15) {
+//   animation-delay: 1.4s;
+// }
 
-.about-main .grid-container div:nth-child(16){
-  animation-delay: 1.5s;
-}
+// .about-main .grid-container div:nth-child(16) {
+//   animation-delay: 1.5s;
+// }
 
-.about-main .grid-container div:nth-child(17){
-  animation-delay: 1.6s;
-}
+// .about-main .grid-container div:nth-child(17) {
+//   animation-delay: 1.6s;
+// }
 
-.about-main .grid-container div:nth-child(18){
-  animation-delay: 1.7s;
-}
+// .about-main .grid-container div:nth-child(18) {
+//   animation-delay: 1.7s;
+// }
 
-.about-main .grid-container div:nth-child(19){
-  animation-delay: 1.8s;
-}
+// .about-main .grid-container div:nth-child(19) {
+//   animation-delay: 1.8s;
+// }
 
-.about-main .grid-container div:nth-child(20){
-  animation-delay: 1.9s;
-}
+// .about-main .grid-container div:nth-child(20) {
+//   animation-delay: 1.9s;
+// }
 /* about animation delay end */
 
 .about-main .grid-container img {
