@@ -880,40 +880,38 @@ footer {
     width: 90%; }
   .store-main .grid-container {
     grid-template-columns: repeat(3, 1fr); }
-  .store-main .grid-container .card .image {
-    width: 9em;
-    height: 11em; }
-  /* store animation delay start */
-  .store-main .grid-container .card.card-2,
-  .store-main .grid-container .card.card-4 {
-    -webkit-animation-delay: 0.2s;
-            animation-delay: 0.2s; }
-  .store-main .grid-container .card.card-3,
-  .store-main .grid-container .card.card-5,
-  .store-main .grid-container .card.card-7 {
-    -webkit-animation-delay: 0.4s;
-            animation-delay: 0.4s; }
-  .store-main .grid-container .card.card-6,
-  .store-main .grid-container .card.card-8,
-  .store-main .grid-container .card.card-10 {
-    -webkit-animation-delay: 0.6s;
-            animation-delay: 0.6s; }
-  .store-main .grid-container .card.card-9,
-  .store-main .grid-container .card.card-11 {
-    -webkit-animation-delay: 0.8s;
-            animation-delay: 0.8s; }
-  .store-main .grid-container .card.card-12 {
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s; }
-  /* store animation delay end */ }
+    .store-main .grid-container .card .image {
+      width: 9em;
+      height: 11em; }
+    .store-main .grid-container .card.card-2,
+    .store-main .grid-container .card.card-4 {
+      -webkit-animation-delay: 0.2s;
+              animation-delay: 0.2s; }
+    .store-main .grid-container .card.card-3,
+    .store-main .grid-container .card.card-5,
+    .store-main .grid-container .card.card-7 {
+      -webkit-animation-delay: 0.4s;
+              animation-delay: 0.4s; }
+    .store-main .grid-container .card.card-6,
+    .store-main .grid-container .card.card-8,
+    .store-main .grid-container .card.card-10 {
+      -webkit-animation-delay: 0.6s;
+              animation-delay: 0.6s; }
+    .store-main .grid-container .card.card-9,
+    .store-main .grid-container .card.card-11 {
+      -webkit-animation-delay: 0.8s;
+              animation-delay: 0.8s; }
+    .store-main .grid-container .card.card-12 {
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s; } }
 
 @media (min-width: 1300px) {
   .about-main .grid-container {
     grid-template-columns: repeat(6, 9vw); }
-  .about-main .grid-container .order-2 {
-    order: 2; }
-  .about-main .grid-container .order-3 {
-    order: 3; } }
+    .about-main .grid-container .order-2 {
+      order: 2; }
+    .about-main .grid-container .order-3 {
+      order: 3; } }
 
 @media (min-width: 1600px) {
   html {
@@ -922,29 +920,27 @@ footer {
     padding-top: 2em; }
   .store-main .grid-container {
     grid-template-columns: repeat(4, 1fr); }
-  /* store animation delay start */
-  .store-main .grid-container .card.card-2,
-  .store-main .grid-container .card.card-5 {
-    -webkit-animation-delay: 0.2s;
-            animation-delay: 0.2s; }
-  .store-main .grid-container .card.card-3,
-  .store-main .grid-container .card.card-6,
-  .store-main .grid-container .card.card-9 {
-    -webkit-animation-delay: 0.4s;
-            animation-delay: 0.4s; }
-  .store-main .grid-container .card.card-4,
-  .store-main .grid-container .card.card-7,
-  .store-main .grid-container .card.card-10 {
-    -webkit-animation-delay: 0.6s;
-            animation-delay: 0.6s; }
-  .store-main .grid-container .card.card-8,
-  .store-main .grid-container .card.card-11 {
-    -webkit-animation-delay: 0.8s;
-            animation-delay: 0.8s; }
-  .store-main .grid-container .card.card-12 {
-    -webkit-animation-delay: 1s;
-            animation-delay: 1s; }
-  /* store animation delay end */ }
+    .store-main .grid-container .card.card-2,
+    .store-main .grid-container .card.card-5 {
+      -webkit-animation-delay: 0.2s;
+              animation-delay: 0.2s; }
+    .store-main .grid-container .card.card-3,
+    .store-main .grid-container .card.card-6,
+    .store-main .grid-container .card.card-9 {
+      -webkit-animation-delay: 0.4s;
+              animation-delay: 0.4s; }
+    .store-main .grid-container .card.card-4,
+    .store-main .grid-container .card.card-7,
+    .store-main .grid-container .card.card-10 {
+      -webkit-animation-delay: 0.6s;
+              animation-delay: 0.6s; }
+    .store-main .grid-container .card.card-8,
+    .store-main .grid-container .card.card-11 {
+      -webkit-animation-delay: 0.8s;
+              animation-delay: 0.8s; }
+    .store-main .grid-container .card.card-12 {
+      -webkit-animation-delay: 1s;
+              animation-delay: 1s; } }
 
 @media (min-width: 1800px) {
   header .bottom h1 {

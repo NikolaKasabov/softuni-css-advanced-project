@@ -53,38 +53,42 @@
     font-size: 16px;
   }
 
-  header .bottom .nav-wrapper {
-    align-items: flex-end;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+  header .bottom {
+    .nav-wrapper {
+      align-items: flex-end;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+    }
+
+    label {
+      display: none;
+    }
+
+    nav {
+      display: block;
+    }
+
+    ul {
+      display: flex;
+    }
+
+    li {
+      margin-right: 1em;
+    }
+
+    a {
+      padding: 0.25em 1em;
+    }
+
+    h1 {
+      font-size: 3.5em;
+    }
   }
 
-  header .bottom label {
-    display: none;
-  }
-
-  header .bottom nav {
-    display: block;
-  }
-
-  header .bottom ul {
-    display: flex;
-  }
-
-  header .bottom li {
-    margin-right: 1em;
-  }
-
-  header .bottom a {
-    padding: 0.25em 1em;
-  }
-
-  header .bottom h1 {
-    font-size: 3.5em;
-  }
-
-  .home-main .content,
-  .home-main .app {
-    width: 70%;
+  .home-main {
+    .content,
+    .app {
+      width: 70%;
+    }
   }
 
   .about-main .grid-container {
@@ -116,12 +120,14 @@
     font-size: 4em;
   }
 
-  .home-main .content {
-    width: 50%;
-  }
+  .home-main {
+    .content {
+      width: 50%;
+    }
 
-  .home-main .app {
-    width: 65%;
+    .app {
+      width: 65%;
+    }
   }
 
   footer .bottom:before {
@@ -130,53 +136,53 @@
 
   .store-main .grid-container {
     grid-template-columns: repeat(3, 1fr);
-  }
 
-  .store-main .grid-container .card .image {
-    width: 9em;
-    height: 11em;
-  }
+    .card .image {
+      width: 9em;
+      height: 11em;
+    }
 
-  /* store animation delay start */
-  .store-main .grid-container .card.card-2,
-  .store-main .grid-container .card.card-4 {
-    animation-delay: 0.2s;
-  }
+    // store animation delays start
+    .card.card-2,
+    .card.card-4 {
+      animation-delay: 0.2s;
+    }
 
-  .store-main .grid-container .card.card-3,
-  .store-main .grid-container .card.card-5,
-  .store-main .grid-container .card.card-7 {
-    animation-delay: 0.4s;
-  }
+    .card.card-3,
+    .card.card-5,
+    .card.card-7 {
+      animation-delay: 0.4s;
+    }
 
-  .store-main .grid-container .card.card-6,
-  .store-main .grid-container .card.card-8,
-  .store-main .grid-container .card.card-10 {
-    animation-delay: 0.6s;
-  }
+    .card.card-6,
+    .card.card-8,
+    .card.card-10 {
+      animation-delay: 0.6s;
+    }
 
-  .store-main .grid-container .card.card-9,
-  .store-main .grid-container .card.card-11 {
-    animation-delay: 0.8s;
-  }
+    .card.card-9,
+    .card.card-11 {
+      animation-delay: 0.8s;
+    }
 
-  .store-main .grid-container .card.card-12 {
-    animation-delay: 1s;
+    .card.card-12 {
+      animation-delay: 1s;
+    }
+    // store animation delays end
   }
-  /* store animation delay end */
 }
 
 @media (min-width: 1300px) {
   .about-main .grid-container {
     grid-template-columns: repeat(6, 9vw);
-  }
 
-  .about-main .grid-container .order-2 {
-    order: 2;
-  }
+    .order-2 {
+      order: 2;
+    }
 
-  .about-main .grid-container .order-3 {
-    order: 3;
+    .order-3 {
+      order: 3;
+    }
   }
 }
 
@@ -191,44 +197,46 @@
 
   .store-main .grid-container {
     grid-template-columns: repeat(4, 1fr);
-  }
 
-  /* store animation delay start */
-  .store-main .grid-container .card.card-2,
-  .store-main .grid-container .card.card-5 {
-    animation-delay: 0.2s;
-  }
+    // store animation delays start
+    .card.card-2,
+    .card.card-5 {
+      animation-delay: 0.2s;
+    }
 
-  .store-main .grid-container .card.card-3,
-  .store-main .grid-container .card.card-6,
-  .store-main .grid-container .card.card-9 {
-    animation-delay: 0.4s;
-  }
+    .card.card-3,
+    .card.card-6,
+    .card.card-9 {
+      animation-delay: 0.4s;
+    }
 
-  .store-main .grid-container .card.card-4,
-  .store-main .grid-container .card.card-7,
-  .store-main .grid-container .card.card-10 {
-    animation-delay: 0.6s;
-  }
+    .card.card-4,
+    .card.card-7,
+    .card.card-10 {
+      animation-delay: 0.6s;
+    }
 
-  .store-main .grid-container .card.card-8,
-  .store-main .grid-container .card.card-11 {
-    animation-delay: 0.8s;
-  }
+    .card.card-8,
+    .card.card-11 {
+      animation-delay: 0.8s;
+    }
 
-  .store-main .grid-container .card.card-12 {
-    animation-delay: 1s;
+    .card.card-12 {
+      animation-delay: 1s;
+    }
+    // store animation delays end
   }
-  /* store animation delay end */
 }
 
 @media (min-width: 1800px) {
-  header .bottom h1 {
-    padding-top: 3em;
-  }
+  header .bottom {
+    h1 {
+      padding-top: 3em;
+    }
 
-  header .bottom .slogan {
-    padding-bottom: 7em;
+    .slogan {
+      padding-bottom: 7em;
+    }
   }
 }
 /* media-queries css end */
