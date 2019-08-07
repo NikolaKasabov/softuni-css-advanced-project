@@ -65,8 +65,10 @@ header {
       margin-right: 0.5em;
       color: #000;
       transition: color 0.3s ease-out; }
-    header .top i:hover {
-      color: #ac262b; }
+    header .top i:hover,
+    header .top i:focus {
+      color: #ac262b;
+      outline: none; }
     header .top .icons a {
       margin-right: 0.5em; }
   header .bottom {
@@ -108,7 +110,8 @@ header {
         transform: scale(1.05);
         background-color: #ac262b;
         color: #f2e2cb;
-        border-color: #f2e2cb; }
+        border-color: #f2e2cb;
+        outline: none; }
     header .bottom h1 {
       padding-top: 2em;
       font-size: 3em;
@@ -193,7 +196,8 @@ footer {
       transition: color 0.3s ease, transform 0.3s ease; }
       footer .top a:hover, footer .top a:focus {
         color: #ac262b;
-        transform: scale(1.1); }
+        transform: scale(1.1);
+        outline: none; }
   footer .bottom {
     margin-top: 2em;
     text-align: center; }

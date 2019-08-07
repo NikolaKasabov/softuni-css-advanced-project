@@ -30,8 +30,10 @@ header {
       transition: color 0.3s ease-out;
     }
 
-    i:hover {
+    i:hover,
+    i:focus {
       color: $red;
+      outline: none;
     }
 
     .icons a {
@@ -90,6 +92,7 @@ header {
         background-color: $red;
         color: $yellow-dark;
         border-color: $yellow-dark;
+        outline: none;
       }
     }
     /* header nav end */
@@ -215,6 +218,7 @@ footer {
       &:focus {
         color: $red;
         transform: scale(1.1);
+        outline: none;
       }
     }
   }
