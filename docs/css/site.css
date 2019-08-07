@@ -190,6 +190,7 @@ footer {
       text-shadow: 1px -1px 0 #ac262b, 1px 1px 0 #ac262b; }
     footer .top a {
       display: inline-block;
+      font-size: 1.3em;
       color: #f6f2e4;
       transition: color 0.3s ease, transform 0.3s ease; }
       footer .top a:hover, footer .top a:focus {
