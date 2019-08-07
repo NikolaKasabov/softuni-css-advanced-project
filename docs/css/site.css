@@ -65,8 +65,7 @@ header {
       margin-right: 0.5em;
       color: #000;
       transition: color 0.3s ease-out; }
-    header .top i:hover,
-    header .top i:focus {
+    header .top i:hover {
       color: #ac262b; }
     header .top .icons a {
       margin-right: 0.5em; }
