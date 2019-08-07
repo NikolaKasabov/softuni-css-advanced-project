@@ -3,10 +3,10 @@
   </label>
   <nav>
     <ul>
-      <li><a href="{{ site.baseurl }}/">Home</a></li>
-      <li><a href="{{ site.baseurl }}/store/">Products</a></li>
-      <li><a href="{{ site.baseurl }}/about/">About Al</a></li>
-      <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
+      <li><a href="{{ site.baseurl }}/"{% if page.url == "/"%} class="selected"{% endif %}>Home</a></li>
+      <li><a href="{{ site.baseurl }}/store/"{% if page.url == "/store/"%} class="selected"{% endif %} {% if page.url == "/accessories/"%} class="selected" {% endif %}>Products</a></li>
+      <li><a href="{{ site.baseurl }}/about/"{% if page.url == "/about/"%} class="selected"{% endif %}>About Al</a></li>
+      <li><a href="{{ site.baseurl }}/contact/"{% if page.url == "/contact/"%} class="selected"{% endif %}>Contact</a></li>
     </ul>
   </nav>
 </div>

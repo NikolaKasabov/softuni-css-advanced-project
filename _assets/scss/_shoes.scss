@@ -20,7 +20,11 @@
   &:before {
     display: block;
     content: "";
-    background: linear-gradient(to right, rgba(246, 242, 228, 0.6), rgba(246, 242, 228, 0.6)),
+    background: linear-gradient(
+        to right,
+        rgba(246, 242, 228, 0.6),
+        rgba(246, 242, 228, 0.6)
+      ),
       url("../images/main.jpg") center / cover no-repeat;
     position: absolute;
     top: 0;
@@ -166,11 +170,17 @@
 .store-main.shoes .grid-container .card {
   @for $i from 1 through 12 {
     &.card-#{$i} .image:before {
-      background: url("../images/shoes/#{$i}-2.jpeg") center / contain no-repeat;
+      background: url("../images/shoes/#{$i}-2.jpeg")
+        center /
+        contain
+        no-repeat;
     }
 
     &.card-#{$i} .image:after {
-      background: url("../images/shoes/#{$i}-1.jpeg") center / contain no-repeat;
+      background: url("../images/shoes/#{$i}-1.jpeg")
+        center /
+        contain
+        no-repeat;
     }
   }
 }

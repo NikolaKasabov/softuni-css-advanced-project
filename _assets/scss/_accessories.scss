@@ -29,11 +29,17 @@
 .store-main.accessories .grid-container .card {
   @for $i from 1 through 12 {
     &.card-#{$i} .image:before {
-      background: url("../images/accessories/#{$i}-2.jpeg") center / contain no-repeat;
+      background: url("../images/accessories/#{$i}-2.jpeg")
+        center /
+        contain
+        no-repeat;
     }
 
     &.card-#{$i} .image:after {
-      background: url("../images/accessories/#{$i}-1.jpeg") center / contain no-repeat;
+      background: url("../images/accessories/#{$i}-1.jpeg")
+        center /
+        contain
+        no-repeat;
     }
   }
 }
