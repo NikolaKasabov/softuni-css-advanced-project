@@ -753,6 +753,31 @@ footer {
     .contact-main .form-container form textarea:hover,
     .contact-main .form-container form textarea:focus {
       box-shadow: 0 0 0.5rem 0 rgba(172, 38, 43, 0.8); }
+      .contact-main .form-container form input:hover::-webkit-input-placeholder,
+      .contact-main .form-container form input:focus::-webkit-input-placeholder,
+      .contact-main .form-container form textarea:hover::-webkit-input-placeholder,
+      .contact-main .form-container form textarea:focus::-webkit-input-placeholder {
+        color: rgba(172, 38, 43, 0.8); }
+      .contact-main .form-container form input:hover::-moz-placeholder,
+      .contact-main .form-container form input:focus::-moz-placeholder,
+      .contact-main .form-container form textarea:hover::-moz-placeholder,
+      .contact-main .form-container form textarea:focus::-moz-placeholder {
+        color: rgba(172, 38, 43, 0.8); }
+      .contact-main .form-container form input:hover:-ms-input-placeholder,
+      .contact-main .form-container form input:focus:-ms-input-placeholder,
+      .contact-main .form-container form textarea:hover:-ms-input-placeholder,
+      .contact-main .form-container form textarea:focus:-ms-input-placeholder {
+        color: rgba(172, 38, 43, 0.8); }
+      .contact-main .form-container form input:hover::-ms-input-placeholder,
+      .contact-main .form-container form input:focus::-ms-input-placeholder,
+      .contact-main .form-container form textarea:hover::-ms-input-placeholder,
+      .contact-main .form-container form textarea:focus::-ms-input-placeholder {
+        color: rgba(172, 38, 43, 0.8); }
+      .contact-main .form-container form input:hover::placeholder,
+      .contact-main .form-container form input:focus::placeholder,
+      .contact-main .form-container form textarea:hover::placeholder,
+      .contact-main .form-container form textarea:focus::placeholder {
+        color: rgba(172, 38, 43, 0.8); }
     .contact-main .form-container form .name {
       -webkit-animation-delay: 0.1s;
               animation-delay: 0.1s; }
